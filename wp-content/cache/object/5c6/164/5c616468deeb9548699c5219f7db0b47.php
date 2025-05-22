@@ -1,0 +1,1 @@
+ïe†f<?php exit; ?>a:1:{s:7:"content";s:259:"a:3:{s:19:"black_friday_notice";a:4:{s:5:"start";i:1718277692;s:10:"recurrence";b:0;s:7:"refresh";s:6:"5.9.24";s:6:"expire";i:1701561599;}s:7:"version";s:5:"1.1.0";s:6:"review";a:3:{s:5:"start";i:1718882493;s:10:"recurrence";i:30;s:7:"refresh";s:6:"5.9.24";}}";}

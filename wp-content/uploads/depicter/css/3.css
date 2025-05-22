@@ -1,0 +1,148 @@
+
+.depicter-revert.depicter-3 .depicter-layers-wrapper{
+	padding-left:15px;
+	padding-right:15px;
+}
+.depicter-revert .depicter-3-element-32{
+	opacity:1;
+	backdrop-filter:blur(18px) brightness(100%) opacity(100%);
+	background-color:rgba(255, 0, 0, 0.35);
+	border-radius:39px;
+}
+.depicter-3-element-9 .depicter-symbol-container{
+	fill:#000;
+}
+.depicter-revert .depicter-3-element-11{
+	font-size:72px;
+	text-align:left;
+	color:#FFF;
+	font-family:"DM Sans";
+	font-weight:500;
+	line-height:120%;
+	letter-spacing:-3px;
+	background-color:transparent;
+}
+.depicter-revert .depicter-3-element-12{
+	font-size:14px;
+	color:#FFF;
+	font-family:"DM Sans";
+	font-weight:400;
+	line-height:120%;
+	background-color:transparent;
+}
+.depicter-revert .depicter-3-element-13{
+	padding:7px 25px 10px 27px;
+	font-size:12px;
+	text-align:center;
+	color:#FFF;
+	font-family:"DM Sans";
+	font-weight:500;
+	text-transform:uppercase;
+	letter-spacing:5px;
+	background-color:transparent;
+	border-width:2px;
+	border-style:solid;
+	border-color:#707070;
+	border-radius:20px;
+}
+.depicter-revert .depicter-3-element-60{
+	border-radius:100%;
+}
+.depicter-revert .depicter-3-element-39{
+	border-radius:407px;
+}
+.depicter-revert .depicter-3-element-38{
+	border-radius:407px;
+}
+.depicter-revert .depicter-3-element-37{
+	background-color:#FFF;
+}
+.depicter-revert .depicter-3-element-36{
+	font-size:18px;
+	color:#FFF;
+	font-family:"DM Sans";
+	font-weight:700;
+	line-height:120%;
+	text-transform:uppercase;
+	background-color:transparent;
+}
+.depicter-revert .depicter-3-element-35{
+	font-size:320px;
+	color:#FFF;
+	font-family:"DM Sans";
+	font-weight:400;
+	line-height:120%;
+	letter-spacing:-19px;
+	background-color:transparent;
+}
+.depicter-revert .depicter-3-element-34{
+	background-color:#000;
+}
+.depicter-revert .depicter-3-section-33 .depicter-section-background{
+	background-color:#343434;
+}
+.depicter-revert .depicter-3-element-69{
+	border-radius:100%;
+}
+.depicter-revert .depicter-3-element-68{
+	border-radius:407px;
+}
+.depicter-revert .depicter-3-element-67{
+	border-radius:407px;
+}
+.depicter-revert .depicter-3-element-66{
+	background-color:#FFF;
+}
+.depicter-revert .depicter-3-element-65{
+	font-size:18px;
+	color:#FFF;
+	font-family:"DM Sans";
+	font-weight:700;
+	line-height:120%;
+	text-transform:uppercase;
+	background-color:transparent;
+}
+.depicter-revert .depicter-3-element-64{
+	font-size:320px;
+	color:#FFF;
+	font-family:"DM Sans";
+	font-weight:400;
+	line-height:120%;
+	letter-spacing:-19px;
+	background-color:transparent;
+}
+.depicter-revert .depicter-3-element-63{
+	background-color:#000;
+}
+.depicter-revert .depicter-3-section-62 .depicter-section-background{
+	background-color:#343434;
+}
+
+/***** Tablet *****/
+@media screen and (max-width: 1024px){
+
+.depicter-revert .depicter-3-element-11{
+	font-size:58px;
+	text-align:left;
+	color:#222222;
+	font-family:"DM Sans";
+	font-weight:500;
+	line-height:120%;
+	letter-spacing:-3px;
+}
+
+}
+/***** Mobile *****/
+@media screen and (max-width: 767px){
+
+.depicter-revert .depicter-3-element-11{
+	font-size:32px;
+	text-align:left;
+	color:#222222;
+	font-family:"DM Sans";
+	font-weight:500;
+	line-height:120%;
+	letter-spacing:-1px;
+}
+
+}

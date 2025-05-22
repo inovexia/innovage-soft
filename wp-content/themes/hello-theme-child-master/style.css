@@ -1,0 +1,302 @@
+/* 
+Theme Name: Hello Elementor Child
+Theme URI: https://github.com/elementor/hello-theme-child/
+Description: Hello Elementor Child is a child theme of Hello Elementor, created by Elementor team
+Author: Elementor Team
+Author URI: https://elementor.com/
+Template: hello-elementor
+Version: 2.0.0
+Text Domain: hello-elementor-child
+License: GNU General Public License v3 or later.
+License URI: https://www.gnu.org/licenses/gpl-3.0.html
+Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, featured-images, rtl-language-support, threaded-comments, translation-ready
+*/
+
+/* Add your custom styles here */
+body .footer-form {
+  background-color: #1A1A1A;
+  padding: 25px 40px;
+  border-radius: 20px;
+margin-bottom:0 !important;
+}
+
+.footer-form-field-50 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.footer-form-field-100 .form-field, .footer-form-field-100 .form-field p {
+  width: 100%;
+}
+.footer-form-field-50 .form-field,.footer-form-field-100 .form-field{
+	margin-bottom:17px;
+}
+.footer-form .footer-form-field-50 .form-field input,.footer-form .footer-form-field-100 .form-field input,.footer-form .footer-form-field-100 .form-field textarea, .footer-form .footer-form-field-100 .form-field select{
+  background-color: #0E0E0E;
+  color:#C8C8CD;
+  border-color: #414141;
+  border-radius: 6px;
+}
+.footer-form .footer-form-field-100 .form-field textarea{
+  height:150px;
+}
+.form-field.submit-btn {
+  margin: 0;
+  text-align: center;
+}
+.footer-form .form-field.submit-btn input {
+  border-radius: 30px;
+  color: #fff;
+  background-image: linear-gradient(to right, #FC7373, #F00);
+	margin-bottom: 0 !important;
+}
+
+/* Home Services Section */
+#service-list ul li,#service-list ul li a{
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+}
+#service-list ul li svg, #service-list ul li a svg {
+  background-color: #0E0E0E;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  padding: 8px;
+}
+#service-list ul li:hover svg, #service-list ul li a:hover svg {
+  background-color: #FCFFE7;
+}
+#service-list ul li:hover svg path, #service-list ul li a:hover svg path{
+  fill: #0E0E0E;
+}
+.elementor-swiper-button.elementor-swiper-button-prev, .elementor-swiper-button.elementor-swiper-button-next {
+  background-color: #fff;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  align-items: center;
+  justify-content: center;
+}
+/* Testimonial Slider */
+.custom-nav-wrapper {
+  position: absolute;
+  right: 0;
+  top: 80%;
+}
+#testimonial-slider .elementor-testimonial {
+  align-items: center;
+}
+#testimonial-slider  .elementor-swiper-button svg {
+  fill: #000;
+}
+#testimonial-slider .elementor-swiper-button.elementor-swiper-button-prev {
+  left: -115px;
+  position: absolute;
+}
+#testimonial-slider .elementor-swiper-button.elementor-swiper-button-next {
+  position: absolute;
+  right: 0;
+}
+#testimonial-slider .elementor-testimonial__text {
+  border-bottom: 1px solid #414141;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+#testimonial-slider .elementor-testimonial__content{
+  position: relative;
+}
+#testimonial-slider .elementor-testimonial__content::before {
+  content: "\f10e"; 
+  font-family: "FontAwesome";
+  position: absolute;
+  font-size: 40px;
+  color: #fff;
+  top: -50px;
+  left: 0;
+  z-index: 9999;
+}
+#footer-cta .elementor-heading-title.elementor-size-default {
+  text-decoration: none;
+	-webkit-background-clip: text;
+  -webkit-text-fill-color:unset;
+}
+/* Serevices Page */
+#service-list .elementor-widget-icon-box{
+	height:100%;
+}
+#faq-accordion .elementor-accordion-item {
+  border-color: #414141;
+  border-radius: 8px;
+  overflow: hidden;
+}
+@media only screen and (min-width:1180px){
+	#innovage-search-box {;
+	  right: 185px;
+	}
+	#menu-1-23cdb1bc li a {
+		  margin-right: 0;
+		}
+}
+
+@media only screen and (max-width:767px){
+	.footer-form-field-50 .form-field {
+		flex: 1 1 calc(100% - 0px);
+		max-width: calc(100% - 0px);
+		box-sizing: border-box;
+	}
+	#mission-goal .bdr .elementor-widget-container{
+	  border: none;
+	}
+	body #testimonial-slider .elementor-testimonial__image{
+		width:100%;
+	}
+	 body #testimonial-slider .elementor-testimonial__image img {
+    width: 100%;
+    height: 100%;
+  }
+	#testimonial-slider .elementor-testimonial__content {
+	  position: relative;
+	  margin-top: 50px;
+	}
+	#testimonial-slider .custom-nav-wrapper {
+  position: absolute;
+  right: 50%;
+  left: 60%;
+  top: 110%;
+}
+	#home-slide-arrow .elementor-swiper-button {
+  display: none;
+}
+	#testimonial-slider .elementor-testimonial__footer {
+  display: none !important;
+}
+/* 	Custom Services list */
+	body .custom-services-list .service-item {
+  flex: 1 1 calc(100% - 0px);
+  max-width: calc(100% - 0px);
+}
+}
+@media only screen and (min-width:768px){
+	.footer-form-field-50 .form-field {
+    flex: 1 1 calc(50% - 10px);
+    max-width: calc(50% - 10px);
+    box-sizing: border-box;
+  }
+	
+}
+@media only screen and (min-width:768px) and (max-width:992px){
+	/* 	Custom Services list */
+	body .custom-services-list .service-item {
+  flex: 1 1 calc(50% - 30px);
+  max-width: calc(50% - 30px);
+}
+}
+
+/* Works Page */
+#work-item {
+  position: relative;
+}
+#work-item .uc_btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: 9;
+  width: 50px;
+  height: 50px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+background: linear-gradient(90deg, #FC7373, #F00);
+	opacity: 0;
+	transition:all 0.3s;
+}
+#work-item:hover a {
+  opacity: 1;
+}
+#work-item .uc_btn:hover{
+	color:#fff;
+}
+#work-item .uc_btn i{
+	transform: rotate(-30deg);
+}
+
+#work-item .uc_box_content {
+  padding: 20px 0px 0px;
+}
+#work-list .elementor-widget-post-info {
+  margin-top: -10px;
+}
+#work-item .uc_image_box {
+  border-radius: 12px;
+}
+
+/* Work Details Page CSS */
+.single-work .uc_long_content_box{
+  position: relative;
+}
+.single-work .uc_box_content {
+  position: absolute;
+  bottom: 60px;
+}
+.single-work .uc_btn {
+  position: absolute;
+  bottom: 30px;
+  left: 20px;
+  z-index: 9;
+  transition: all 0.3s;
+}
+body.single-work .uc_overlay {
+  opacity: 0% !important;
+}
+body.single-work .uc_image_box{
+	border-radius:20px;
+}
+.page-id-1274 footer .e-con-inner {
+  padding-top: 80px;
+}
+.page-id-1274 footer .elementor-element.elementor-element-32809521{
+  margin-top: 0;
+}
+
+/*  Custom Services Listing */
+.custom-services-list {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  align-items: unset;
+  justify-content: center;
+}
+.custom-services-list .service-item {
+  flex: 1 1 calc(33.333% - 20px);
+  max-width: calc(33.333% - 20px);
+  box-sizing: border-box;
+  background-color: #1A1A1A;
+  padding: 40px 40px 40px 40px;
+  border-style: solid;
+  border-width: 1px 1px 1px 1px;
+  border-color: #414141;
+  border-radius: 8px 8px 8px 8px;
+}
+.custom-services-list .service-item h3 {
+  font-family: "Inter", Sans-serif;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 32px;
+}
+.custom-services-list .service-excerpt {
+  flex-grow: 1;
+  margin-bottom: 20px;
+  color: #C8C8CD;
+  font-family: "Kanit", Sans-serif;
+  font-weight: 400;
+  line-height: 28px;
+}

@@ -1,0 +1,1 @@
+ïe†f<?php exit; ?>a:1:{s:7:"content";a:5:{s:20:"_elementor_edit_mode";a:1:{i:0;s:7:"builder";}s:24:"_elementor_template_type";a:1:{i:0;s:7:"wp-page";}s:18:"_elementor_version";a:1:{i:0;s:6:"3.21.8";}s:22:"_elementor_pro_version";a:1:{i:0;s:6:"3.21.3";}s:17:"_wp_page_template";a:1:{i:0;s:23:"elementor_header_footer";}}}
